@@ -66,7 +66,7 @@ python test_random.py --overwrite --vis_html --plot_loop --moving_line --output_
 
 ## :scroll: Acknowledgement
 
-This paper was sponsored in part by National Natural Science Foundation of China (No. U21A20519 and 62022017), and in part by the National Research and Development Program of China under Grant 2019YQ1700. Corresponding author: C. H. Liu.
+This paper was sponsored in part by National Natural Science Foundation of China (No. U21A20519 and 62022017), and in part by the National Research and Development Program of China under Grant 2019YQ1700.
 <br>
 Corresponding author: Chi Harold Liu.
 
