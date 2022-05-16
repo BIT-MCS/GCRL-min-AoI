@@ -1,6 +1,6 @@
 # GCRL-min(AoI)
-Additional materials for paper "AoI-minimal UAV Crowdsensing by Model-based
-Graph Convolutional Reinforcement Learning" accepted by INFOCOM 2022.
+This is the code accompanying the paper:  "AoI-minimal UAV Crowdsensing by Model-based
+Graph Convolutional Reinforcement Learning"， accepted by INFOCOM 2022.
 
 ## :page_facing_up: Description
 Mobile Crowdsensing (MCS) with smart devices has become an appealing paradigm for urban sensing.With the development of 5G-and-beyond technologies, unmanned aerial vehicles (UAVs) become possible for real-time applications, including wireless coverage, search and even disaster response. In this paper, we consider to use a group of UAVs as aerial base stations (BSs) to move around and collect data from multiple MCS users, forming a UAV crowdsensing campaign (UCS). Our goal is to maximize the collected data, geographical coverage whiling minimizing the age-of-information (AoI) of all mobile users simultaneously, with efficient use of constrained energy reserve. We propose a model-based deep reinforcement learning (DRL) framework called ”GCRL-min(AoI)”, which mainly consists of a novel model-based Monte Carlo tree search (MCTS) structure based on state-of-the- art approach MCTS (AlphaZero). We further improve it by adding a spatial UAV-user correlation extraction mechanism by a relational graph convolutional network (RGCN), and a next state prediction module to reduce the dependance of experience data. Extensive results and trajectory visualization on three real human mobility datasets in Purdue University, KAIST and NCSU show that GCRL-min(AoI) consistently outperforms five
@@ -66,10 +66,23 @@ python test_random.py --overwrite --vis_html --plot_loop --moving_line --output_
 
 ## :scroll: Acknowledgement
 
-This paper was sponsored in part by National Natural Science Foundation of China (No. U21A20519 and 62022017), and in part by the National Research and Development Program of China under Grant 2019YQ1700.
+This work is supported by the National Natural Science Foundation of China (No. 62022017). 
 <br>
 Corresponding author: Chi Harold Liu.
 
 ## :e-mail: Contact
 
 If you have any question, please email `3120215520@bit.edu.cn`.
+
+## Paper
+If you are interested in our work, please cite our paper as
+
+```
+@inproceedings{dai2022aoi,
+  author    = {Dai, Zipeng and Liu, Chi Harold and Ye, Yuxiao and Han, Rui and Yuan, Ye and Wang, Guoren and Tang, Jian},
+  title     = {AoI-minimal UAV Crowdsensing by Model-based
+Graph Convolutional Reinforcement Learning},
+  booktitle = {IEEE International Conference on Computer Communications (INFOCOM)},
+  year      = {2022},
+}
+```
