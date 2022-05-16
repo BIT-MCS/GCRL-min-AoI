@@ -80,8 +80,7 @@ If you are interested in our work, please cite our paper as
 ```
 @inproceedings{dai2022aoi,
   author    = {Dai, Zipeng and Liu, Chi Harold and Ye, Yuxiao and Han, Rui and Yuan, Ye and Wang, Guoren and Tang, Jian},
-  title     = {AoI-minimal UAV Crowdsensing by Model-based
-Graph Convolutional Reinforcement Learning},
+  title     = {AoI-minimal UAV Crowdsensing by Model-based Graph Convolutional Reinforcement Learning},
   booktitle = {IEEE International Conference on Computer Communications (INFOCOM)},
   year      = {2022},
 }
