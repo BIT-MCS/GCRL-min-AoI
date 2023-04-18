@@ -1,7 +1,7 @@
 bokeh==2.4.0
 holoviews>=1.14.2
+gym==0.21
 hvplot
-gym
 matplotlib
 numpy
 scipy

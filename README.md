@@ -20,7 +20,7 @@ baselines, when varying different number of UAVs and maximum coupling loss in te
     # python-env
     conda create -n mcs python==3.8
     conda activate mcs
-    conda install pytorch torchvision torchaudio cudatoolkit=11.3 tensorboard future
+    conda install pytorch cudatoolkit tensorboard future
     conda install --channel conda-forge cartopy
     pip install -r requirements.txt
     
